@@ -1,0 +1,13 @@
+body{margin: 0; background: #101010 url(http://static.cdprojektred.com/common/agegate/cdp_witcher_gate_bg.jpg) 50% 0 no-repeat; font-family: arial;}
+#logo{text-align: center; padding-top: 30px;}
+#langSelect{text-align: center; padding: 0; margin: 20px 0 0 0;}
+#langSelect li{display: inline-block;}
+#langSelect li a.unselected{-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: url(grayscale.svg); filter: gray;}
+#agegate_container{width: 380px; background: #111; border-radius: 3px; color: #fff; margin: 20px auto 0 auto; -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1); -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1); box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);}
+#agegate_container.wide{width: 500px;}
+#agegate_container h2{font-size: 16px; color: #a52731; text-align: center; padding: 0; margin: 0; height: 40px; line-height: 40px;}
+#agegate_container div.form{background: #222; text-align: center; padding: 1px 0;}
+#agegate_container div.form input{display: inline-block; outline: none;  -webkit-appearance: none; -moz-appearance: textfield; background: #000; text-align: center; width: 40px; color: #fff; height: 30px; margin: 0; padding: 0; border: 1px solid #a52731; line-height: 30px; font-size: 14px; font-weight: bold;}
+#agegate_container div.form input#year{width: 50px;}
+#agegate_container div.form input#go{width: 50px; background: #a52731; color: #fff; font-weight: normal; cursor: pointer; height: 32px;}
+#agegate_container div.form input[type=number]:focus{border-color: #555;}

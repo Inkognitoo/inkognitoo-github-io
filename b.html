@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>The Wither 3 - timer</title>
+</head>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://e-timer.ru/js/etimer.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery(".eTimer").eTimer({
+            etType: 0, etDate: "19.05.2015.4.0", etTitleText: "До выхода The Wither 3 осталось: ", etTitleSize: 20, etShowSign: 1, etSep: ":", etFontFamily: "Trebuchet MS", etTextColor: "#a3a3a3", etPaddingTB: 15, etPaddingLR: 15, etBackground: "#333333", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: " 0px 0px 10px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 35, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "#11abb0", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
+        });
+    });
+</script>
+<style>
+    html {
+        height: 100%;
+    }
+    body {
+        margin: 0;
+        height: 100%;
+        background: url(assets/image/the-wither-3.jpeg);
+        background-size: cover;
+    }
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="eTimer"></div>
+</div>
+</body>
+</html>
